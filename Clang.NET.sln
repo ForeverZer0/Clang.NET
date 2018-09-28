@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clang.NET", "Clang.NET\Clang.NET.csproj", "{1BC6C559-2046-4AE6-A273-5AD3C9EC1CB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clang.NET.Export", "Clang.NET.Export\Clang.NET.Export.csproj", "{DF530FB8-01C4-405A-AC47-83A4002B14EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clang.NET.Generator", "Clang.NET.CLI\Clang.NET.Generator.csproj", "{AC7E1C07-397E-4424-9FC9-D29B092E831F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1BC6C559-2046-4AE6-A273-5AD3C9EC1CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC6C559-2046-4AE6-A273-5AD3C9EC1CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC6C559-2046-4AE6-A273-5AD3C9EC1CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF530FB8-01C4-405A-AC47-83A4002B14EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF530FB8-01C4-405A-AC47-83A4002B14EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF530FB8-01C4-405A-AC47-83A4002B14EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF530FB8-01C4-405A-AC47-83A4002B14EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7E1C07-397E-4424-9FC9-D29B092E831F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7E1C07-397E-4424-9FC9-D29B092E831F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7E1C07-397E-4424-9FC9-D29B092E831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7E1C07-397E-4424-9FC9-D29B092E831F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

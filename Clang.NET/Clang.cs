@@ -7,7 +7,18 @@ namespace LibClang
 	[SuppressUnmanagedCodeSecurity]
 	public static class Clang
 	{
-		public const string LIBRARY = "x64/libclang";
+		/// <summary>
+		/// The library name, without path or file extension.
+		/// </summary>
+		public const string LIBRARY = "libclang";
+
+		/// <summary>
+		/// Initializes the <see cref="Clang"/> class.
+		/// </summary>
+		static Clang()
+		{
+			Console.WriteLine(NativeLoader.Load(LIBRARY));
+		}
 
 		#region Methods
 

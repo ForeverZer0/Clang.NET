@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>LibClang</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clang.NET.Export\Clang.NET.Export.csproj" />
+    <ProjectReference Include="..\Clang.NET\Clang.NET.csproj" />
+  </ItemGroup>
+
+</Project>
